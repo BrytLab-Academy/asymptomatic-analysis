@@ -41,4 +41,3 @@ Below are the some fundamental expressions of the __O__ Notation in order of com
 | Polynomial   | O(2<sup>n</sup>) |
 | Factorial    | O(n!)            |
 
- ** Note: This is not an exhaustive list of Big O Notatons. 
