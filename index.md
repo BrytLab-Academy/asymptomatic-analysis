@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Asymptomatic Analysis of Algorithms
 
-You can use the [editor on GitHub](https://github.com/BrytLab-Academy/asymptomatic-analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Asymptomatic analysis of algorithm is refers to the mathematical boundation/framing its runtime performance. Asymptomatic analysis is imput bound. Apart from input all other factors are held contants.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There are three main expressions of asymptomatic analysis namely,Best case scenario, Average case scenario, and Worst Case Scenario.All these three example can be used to express the efficiency of an algorithm but the worst case scenario is the widely used. When the type is not explicitly stated, we always assume the worst case scenario.
 
-### Markdown
+Given the list `students`, assuming we are searching for a person and we have to search from the left(*first item*) to the right(*last item*) of the array.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`students = ['Bilson', 'Mansa', 'Kingston', 'John', 'Aminu']`
 
-```markdown
-Syntax highlighted code block
+## Running Times of Algorithm
+  - Best Case Scenario
+    This is the maximum amount of time required for a program to run.
+    Per the scenario above, we will have the best case scenario when the person of interest is __Bilson__ since it is the first person in the list.
 
-# Header 1
-## Header 2
-### Header 3
+  - Worst Case Scenario
+    This is the maximum amount of time required for a program to run.
+    In this case we would have the worst case scenario when we are searching for __Aminu__ because we would have to passs through all the item in the list before we get to __Aminu__.
 
-- Bulleted
-- List
+  - Avarage Case Scenario
+    The avarage time required to run program.
+    Searching for __Kingston__ will bw our average case since it is in the middle of the array. This will take half the time to traverse the entire array.
 
-1. Numbered
-2. List
+## Asymptomatic Notations
+  1. __Ο__ (Big O) Notation
+  2. __Ω__ (Omega) Notation
+  3. __θ__ (Theta) Notation
 
-**Bold** and _Italic_ and `Code` text
+All these are valid notation in analysis of algorithm but the __O__ Notation is the most widely used.
+Below are the some fundamental expressions of the __O__ Notation in order of complexity.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BrytLab-Academy/asymptomatic-analysis/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Sample Big __O__ Notations by order of Complexity
+| Name        | Big O Notaion     |
+| ----------- | ------------      |
+| Constant     |   (O)1           |
+| Logarithmic  |  O(log n)        |
+| Linear       |  O(n)            |
+| n log n      | O(n log N)       |
+| Quadratic    | O(n<sup>2</sup>) |
+| Cubic        | O(n<sup>3</sup>) |
+| Polynomial   | O(2<sup>n</sup>) |
+| Factorial    | O(n!)            |
+ ** Note: This is not an exhaustive list of Big O Notatons. 
