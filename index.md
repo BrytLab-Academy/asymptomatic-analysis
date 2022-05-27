@@ -32,6 +32,7 @@ Below are the some fundamental expressions of the Big __O__ Notation in order of
 ### Sample Big __O__ Notations by order of Complexity
 | Name        | Big O Notaion     |
 | ----------- | ------------      |
+
 | Constant     |   (O)1           |
 | Logarithmic  |  O(log n)        |
 | Linear       |  O(n)            |
