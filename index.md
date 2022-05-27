@@ -40,4 +40,5 @@ Below are the some fundamental expressions of the __O__ Notation in order of com
 | Cubic        | O(n<sup>3</sup>) |
 | Polynomial   | O(2<sup>n</sup>) |
 | Factorial    | O(n!)            |
+
  ** Note: This is not an exhaustive list of Big O Notatons. 
