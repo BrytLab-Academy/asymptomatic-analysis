@@ -9,15 +9,15 @@ Given the list `students`, assuming we are searching for a person and we have to
 `students = ['Bilson', 'Mansa', 'Kingston', 'John', 'Aminu']`
 
 ## Running Times of Algorithm
-  - Best Case Scenario
+  - Best Case Scenario\
     This is the maximum amount of time required for a program to run.
     Per the scenario above, we will have the best case scenario when the person of interest is __Bilson__ since it is the first person in the list.
 
-  - Worst Case Scenario
+  - Worst Case Scenario\
     This is the maximum amount of time required for a program to run.
     In this case we would have the worst case scenario when we are searching for __Aminu__ because we would have to passs through all the item in the list before we get to __Aminu__.
 
-  - Avarage Case Scenario
+  - Avarage Case Scenario\
     The avarage time required to run program.
     Searching for __Kingston__ will bw our average case since it is in the middle of the array. This will take half the time to traverse the entire array.
 
