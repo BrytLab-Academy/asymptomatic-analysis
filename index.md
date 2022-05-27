@@ -26,8 +26,8 @@ Given the list `students`, assuming we are searching for a person and we have to
   2. __Ω__ (Omega) Notation
   3. __θ__ (Theta) Notation
 
-All these are valid notation in analysis of algorithm but the __O__ Notation is the most widely used.
-Below are the some fundamental expressions of the __O__ Notation in order of complexity.
+All these are valid notation in analysis of algorithm but the Big __O__ Notation is the most widely used.
+Below are the some fundamental expressions of the Big __O__ Notation in order of complexity.
 
 ### Sample Big __O__ Notations by order of Complexity
 | Name        | Big O Notaion     |
@@ -40,4 +40,6 @@ Below are the some fundamental expressions of the __O__ Notation in order of com
 | Cubic        | O(n<sup>3</sup>) |
 | Polynomial   | O(2<sup>n</sup>) |
 | Factorial    | O(n!)            |
+
+ ** Note: This is not an exhaustive list of Big O Notatons. 
 
