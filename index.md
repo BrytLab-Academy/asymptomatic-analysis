@@ -36,7 +36,7 @@ Below are the some fundamental expressions of the Big __O__ Notation in order of
 | Constant     |   (O)1           |
 | Logarithmic  |  O(log n)        |
 | Linear       |  O(n)            |
-| n log n      | O(n log N)       |
+| Log-linear   | O(n log N)       |
 | Quadratic    | O(n<sup>2</sup>) |
 | Cubic        | O(n<sup>3</sup>) |
 | Polynomial   | O(2<sup>n</sup>) |
